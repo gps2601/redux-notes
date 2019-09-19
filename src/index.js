@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { createStore } from 'redux'
-import noteReducer from './reducers/noteReducers'
+import noteReducer from './reducers/noteReducer'
 
 
 const store = createStore(noteReducer)
